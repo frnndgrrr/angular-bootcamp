@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AttrDirectivesComponent } from './components/attr-directives/attr-directives.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [AttrDirectivesComponent]
 })
 export class AppComponent {
-  title = 'angular-bootcamp';
 }
