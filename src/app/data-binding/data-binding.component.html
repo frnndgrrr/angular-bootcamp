@@ -1,0 +1,9 @@
+<h1>Event Binding</h1>
+<button (click)="handleClick()">Click me!</button>
+
+<h1>One way data binding</h1>
+<input type="text" [value]="oneWayData">
+
+<h1>Two way data binding</h1>
+<input type="text" [(ngModel)]="twoWayData">
+<span>{{twoWayData}}</span>
